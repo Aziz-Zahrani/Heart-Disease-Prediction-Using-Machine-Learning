@@ -16,8 +16,8 @@ The dataset contains 303 samples and 14 attributes. The goal of these attributes
 |--------|---------------------------|-----------------------------------------------------------------------------------------------------|
 | 1      | Age                       | Number of years the person has   lived                                                              |
 | 2      | Sex                       | The gender of the person (Male =1   ,  Female =0)                                                   |
-| 3      | Chest Pain                | The type of chest pain                                                                              |
-|        | (cp)                      | ·           Value 0: asymptomatic                                                                   |
+| 3      | Chest Pain (CP)                | The type of chest pain                                                                              |
+|        |                       | ·           Value 0: asymptomatic                                                                   |
 |        |                           | ·           Value 1: atypical angina                                                                |
 |        |                           | ·           Value 2: non-anginal pain                                                               |
 |        |                           | ·           Value 3: typical angina                                                                 |
