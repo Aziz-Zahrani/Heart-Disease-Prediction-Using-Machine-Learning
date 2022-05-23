@@ -21,10 +21,9 @@ The dataset contains 303 samples and 14 attributes. The goal of these attributes
 |        |                           | ·           Value 1: atypical angina                                                                |
 |        |                           | ·           Value 2: non-anginal pain                                                               |
 |        |                           | ·           Value 3: typical angina                                                                 |
-| 4      | Resting Blood Pressure    | The blood pressure of a person (mm Hg)                                                              |
-|        | (trestbps)                |                                                                                                     |
-| 5      | Cholesterol               | The cholesterol measurement of a person  in mg/dl                                                   |
-|        | (chol)                    |                                                                                                     |
+| 4      | Resting Blood Pressure (trestbps)   | The blood pressure of a person (mm Hg)                                                              |
+|        |                 |                                                                                                     |
+| 5      | Cholesterol (chol)              | The cholesterol measurement of a person  in mg/dl                                                   |                                                                                             |
 | 6      | Fasting Blood Sugar       | fasting blood sugar of a person (> 120   mg/dl,  True=1 ; False=0  )                                |
 |        | (fps)                     |                                                                                                     |
 | 7      | Resting Electrocardiogram | resting electrocardiographic   results                                                              |
