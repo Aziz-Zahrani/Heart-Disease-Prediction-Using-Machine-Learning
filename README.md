@@ -4,7 +4,7 @@
 Family is always our first concern, and their health is our priority. Throughout the years, diseases have developed as well as detecting them. One of the most critical diseases is heart disease, and it has been so hard to prevent them from growing to higher stages. 
 The human heart is a critical organ in the body, and it delivers blood to every area of our bodies. If it fails to operate properly, the brain and many different organs will stop operating, and thus the human might die after a few minutes. Lifestyle choices, work-related stress, and poor eating habits all lead to the increasing incidence of heart disease. Heart disease has become one of the leading causes of death throughout the world. According to the World Health Organization (WHO), heart disease claims the lives of 17.7 million people each year, representing 31% of all deaths worldwide.
 
-##Solution:
+#Solution:
 The goal is to predict whether a person has heart disease or not at an early stage.
 
 I have implemented Support Vector Machine (SVM) and MLPClassifer to predict the heart disease.
