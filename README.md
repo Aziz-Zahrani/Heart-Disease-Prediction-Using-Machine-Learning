@@ -16,35 +16,36 @@ The dataset contains 303 samples and 14 attributes. The goal of these attributes
 |--------|---------------------------|-----------------------------------------------------------------------------------------------------|
 | 1      | Age                       | Number of years the person has   lived                                                              |
 | 2      | Sex                       | The gender of the person (Male =1   ,  Female =0)                                                   |
-| 3      | Chest Pain (CP)                | The type of chest pain                                                                              |
-|        |                       | ·           Value 0: asymptomatic                                                                   |
+| 3      | Chest Pain                | The type of chest pain                                                                              |
+|        | (cp)                      | ·           Value 0: asymptomatic                                                                   |
 |        |                           | ·           Value 1: atypical angina                                                                |
 |        |                           | ·           Value 2: non-anginal pain                                                               |
 |        |                           | ·           Value 3: typical angina                                                                 |
-| 4      | Resting Blood Pressure (trestbps)   | The blood pressure of a person (mm Hg)                                                              |
-            |
-| 5      | Cholesterol (chol)              | The cholesterol measurement of a person  in mg/dl                                                   |                                                                                             |
-| 6      | Fasting Blood Sugar (fps)       | fasting blood sugar of a person (> 120   mg/dl,  True=1 ; False=0  )                                |
-|        |                     |                                                                                                     |
-| 7      | Resting Electrocardiogram (restecg)  | resting electrocardiographic   results                                                              |
-|        |                 | ·           Value 0: showing probable or definite left   ventricular hypertrophy by Estes’ criteria |
+| 4      | Resting Blood Pressure    | The blood pressure of a person (mm Hg)                                                              |
+|        | (trestbps)                |                                                                                                     |
+| 5      | Cholesterol               | The cholesterol measurement of a person  in mg/dl                                                   |
+|        | (chol)                    |                                                                                                     |
+| 6      | Fasting Blood Sugar       | fasting blood sugar of a person (> 120   mg/dl,  True=1 ; False=0  )                                |
+|        | (fps)                     |                                                                                                     |
+| 7      | Resting Electrocardiogram | resting electrocardiographic   results                                                              |
+|        | (restecg)                 | ·           Value 0: showing probable or definite left   ventricular hypertrophy by Estes’ criteria |
 |        |                           | ·           Value 1: normal                                                                         |
 |        |                           | ·           Value 2: having ST-T wave abnormality                                                   |
-| 8      | Maximum Heart (thalach)             | The maximum heart rate achieved by a person                                                         |
-                                                                                              |
-| 9      | Exercise Induced Angina (exang)  | Exercise induced angina (Yes= 1; No =0)                                                             |
-                                                                                                   |
-| 10     | Stress Test Depression (oldpeak)   | Exercise-induced stress depression compared to   rest                                               |
-                                                                                                |
-| 11     | Slope for Peak Exercise (slope)  | the slope of the peak exercise   stress segment                                                     |
-|        |                    | ·           0: down sloping.                                                                        |
+| 8      | Maximum Heart             | The maximum heart rate achieved by a person                                                         |
+|        | (thalach)                 |                                                                                                     |
+| 9      | Exercise Induced Angina   | Exercise induced angina (Yes= 1; No =0)                                                             |
+|        | (exang)                   |                                                                                                     |
+| 10     | Stress Test Depression    | Exercise-induced stress depression compared to   rest                                               |
+|        | (oldpeak)                 |                                                                                                     |
+| 11     | Slope for Peak Exercise   | the slope of the peak exercise   stress segment                                                     |
+|        | (slope)                   | ·           0: down sloping.                                                                        |
 |        |                           | ·           1: flat.                                                                                |
 |        |                           | ·           2: upsloping                                                                            |
-| 12     | Number of major vessels (ca)  | The number of major vessels ( 0 – 3)                                                                |
-                                                                                                  |
-| 13     | Thallium Heart Rate (thal)      | thalassemia A blood disorder                                                                        |
-|        |                     | ·           Value 1: fixed defect (no blood flow in some part   of the heart)                       |
+| 12     | Number of major vessels   | The number of major vessels ( 0 – 3)                                                                |
+|        | (ca)                      |                                                                                                     |
+| 13     | Thallium Heart Rate       | thalassemia A blood disorder                                                                        |
+|        | (thal)                    | ·           Value 1: fixed defect (no blood flow in some part   of the heart)                       |
 |        |                           | ·           Value 2: normal blood flow                                                              |
 |        |                           | ·           Value 3: reversible defect (a blood flow is   observed but it is not normal)            |
-| 14     | Heart disease prediction (target)  | is a person having heart disease  Yes =1    No =0                                                   |
-                                                                                                    |
+| 14     | Heart disease prediction  | is a person having heart disease  Yes =1    No =0                                                   |
+|        | (target)                  |                                                                                                     |
